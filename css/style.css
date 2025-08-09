@@ -1,0 +1,23 @@
+section{
+       background: #24353f;
+}
+
+.login-box{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.login-box input{
+    background: #24353f;
+}
+
+.login-box input:focus{
+    background: #24353f;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+ text-decoration:underline ;
+}

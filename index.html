@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Smart Login</title>
+</head>
+
+<body>
+    <section class="py-5 vh-100">
+        <div class="container px-5  d-flex justify-content-center">
+            <div class="login-box w-75 p-5  text-center">
+                <h1 class="mb-3 text-info">Smart Login System</h1>
+                <input id="emailInputLogin" type="email" placeholder="Enter your email"
+                    class="form-control text-white p-2 mb-3">
+                <input id="passwordInputLogin" type="password" placeholder="Enter your password"
+                    class="form-control text-white p-2 mb-4">
+                <span id="inputMessage" class="text-danger mb-3 d-none">All inputs is required</span>
+                <span id="invalidMessage" class="text-danger mb-3 d-none">incorrect email or password</span>
+                <span id="notfoundedMessage" class="text-danger mb-3 d-none">this email is not founded</span>
+                <button id="loginBtn" class="btn btn-outline-info w-100 mb-2" >Login</button>
+                <span class="text-white">Don’t have an account?</span>
+                <a class="text-white" href="./singupPage.html">Sign Up</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/Jquery.js"></script>
+    <script  src="./js/index.js" ></script>
+</body>
+
+</html>
